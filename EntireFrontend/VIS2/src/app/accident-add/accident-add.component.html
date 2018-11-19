@@ -66,7 +66,7 @@
                 <div class="col-md-4">
                     <input type="text" formControlName="total_amount" name="total_amount"  placeholder="Total Amount" class="form-control " required>
                     <div *ngIf="f.total_amount.errors" >
-                        <div *ngIf="f.total_amount.errors&&!f.total_amount.pristine">
+                        <div *ngIf="f.total_amount.errors&&!f.total_amount.pristine"
                          class="dinesh">total amount must contain only numbers </div>
                     </div>
                 </div>

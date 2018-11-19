@@ -87,7 +87,7 @@
                 <div class="col-md-4">
                     <input type="text" formControlName="fir_number" name="fir_number" pattern="[0-9]{1,}" class="form-control " required>
                     <div *ngIf="f.fir_number.errors" >
-                        <div *ngIf="f.fir_number.errors&&!f.fir_number.pristine">
+                        <div *ngIf="f.fir_number.errors&&!f.fir_number.pristine"
                          class="dinesh">fir number must contain only numbers </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                 <div class="col-md-4">
                     <input type="text" formControlName="total_amount" pattern="[0-9]{1,}"name="total_amount"  class="form-control " required>
                     <div *ngIf="f.total_amount.errors" >
-                        <div *ngIf="f.total_amount.errors&&!f.total_amount.pristine">
+                        <div *ngIf="f.total_amount.errors&&!f.total_amount.pristine"
                          class="dinesh">total amount must contain only numbers </div>
                     </div>
                 </div>

@@ -33,7 +33,9 @@ background-color: rgba(84, 84, 85, 0.5) !important;
 /*--- for label of first and last name---*/
 
      
-
+.dinesh{
+    color:red;
+}
 /*---for heading-----*/
 .heading{
     text-decoration:bold;
